@@ -9,7 +9,7 @@ const FOOTER_LINKS = [
 export default function Footer() {
   return (
     <footer className="border-t border-brand-border bg-brand-cream">
-      <div className="max-w-[1488px] mx-auto px-12 py-12 flex items-center justify-between flex-wrap gap-6">
+      <div className="max-w-[1488px] mx-auto px-6 sm:px-12 py-10 sm:py-12 flex flex-col sm:flex-row items-center sm:justify-between gap-6 text-center sm:text-left">
         {/* Brand */}
         <div className="flex flex-col gap-1">
           <span className="font-heading font-bold text-xl text-brand-pink">
